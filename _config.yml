@@ -1,0 +1,31 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
+
+description: Stylish Jekyll Theme
+author:
+  name: Jeremy Koritzinsky
+  email: jkoritzinsky@gmail.com
+  github: jkoritzinsky
+  twitter: jkortech
+  linkedin: jkoritzinsky
+  bio: UW-Madison undergraduate Computer Sciences and Mathematics student
+  email_md5: 2b1720d95d1f812a8910a5ec0dcdb10a
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
