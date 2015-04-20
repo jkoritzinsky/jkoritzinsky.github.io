@@ -12,9 +12,9 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Jeremy Koritzinsky
 
-description: Stylish Jekyll Theme
+description: Jeremy Koritzinsky's Blog and Portfolio Website
 author:
   name: Jeremy Koritzinsky
   email: jkoritzinsky@gmail.com
